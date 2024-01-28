@@ -14,6 +14,12 @@ const p_div = document.querySelector('.p_div');
 
 const allsongs = [
     {
+        song: "song1.mp3",
+        pic: "img1.jpg",
+        song_naam: "Prothom Kotha",
+        song_gayak: "Sayan Sinha",
+    },
+    {
         song: "satranga.mp3",
         pic: "img2.jpg",
         song_naam: "Satranga",
@@ -124,6 +130,3 @@ p_div.addEventListener('click', (dba) => {
 
 next.addEventListener('click', nextsongs);
 prev.addEventListener('click', prevsongs);
-
-
-
